@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "yrz:legends_table",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

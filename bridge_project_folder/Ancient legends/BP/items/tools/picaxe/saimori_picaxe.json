@@ -1,0 +1,96 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "yrz:saimori_picaxe",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.pickaxe"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 4096
+			},
+			"minecraft:icon": "yrz_saimori_picaxe",
+			"minecraft:display_name": {
+				"value": "§5Picota Mariposa"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"yrz:saimori_ingot"
+						],
+						"repair_amount": "query.max_durability * 0.25"
+					},
+					{
+						"items": [
+							"yrz:saimori_picaxe"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.12 * context.other->query.max_durability"
+					}
+				]
+			},
+			"minecraft:damage": 6,
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "pickaxe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "query.any_tag('stone', 'metal', 'iron_pick_diggable')"
+						},
+						"speed": 18
+					},
+					{
+						"block": "minecraft:ice",
+						"speed": 24
+					},
+					{
+						"block": "minecraft:sandstone",
+						"speed": 24
+					},
+					{
+						"block": "minecraft:obsidian",
+						"speed": 12
+					},
+					{
+						"block": "minecraft:crying_obsidian",
+						"speed": 12
+					},
+					{
+						"block": "minecraft:quartz_ore",
+						"speed": 26
+					},
+					{
+						"block": "minecraft:nether_gold_ore",
+						"speed": 18
+					},
+					{
+						"block": "minecraft:copper_ore",
+						"speed": 18
+					},
+					{
+						"block": "minecraft:deepslate_copper_ore",
+						"speed": 18
+					},
+					{
+						"block": "minecraft:deepslate_lapis_ore",
+						"speed": 18
+					}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_pickaxe"
+				]
+			}
+		}
+	}
+}

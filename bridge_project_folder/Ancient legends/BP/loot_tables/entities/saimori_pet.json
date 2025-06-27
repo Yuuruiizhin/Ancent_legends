@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "yrz:blood",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.7
+                },
+                {
+                    "condition": "killed_by_player"
+                }
+            ]
+        }
+    ]
+}

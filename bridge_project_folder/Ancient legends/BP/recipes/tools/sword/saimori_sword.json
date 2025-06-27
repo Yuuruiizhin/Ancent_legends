@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "yrz:saimori_sword"
+        },
+        "tags": [
+            "workspace_yrz"
+        ],
+        "pattern": [
+            "s",
+            "S",
+            "b"
+        ],
+        "key": {
+            "s": {
+                "item": "yrz:saimori_ingot"
+            },
+            "S": {
+                "item": "yrz:saimori_ingot"
+            },
+            "b": {
+                "item": "minecraft:bamboo"
+            }
+        },
+        "result": {
+            "item": "yrz:saimori_sword"
+        }
+    }
+}

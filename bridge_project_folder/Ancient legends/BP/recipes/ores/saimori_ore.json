@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "yrz:saimori_ore"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "minecraft:amethyst_shard",
+		"output": "yrz:saimori_ore"
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"resource_pack_name": "addontest",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"yrz_fenix_ingot": {
+			"textures": "textures/items/ingot_fenix"
+		},
+		"yrz_saimori_ingot": {
+			"textures": "textures/items/ingot_bpixel"
+		},
+		"yrz_fenix_sword": {
+			"textures": "textures/items/sword_fenix"
+		},
+		"yrz_saimori_sword": {
+			"textures": "textures/items/sword_saimori"
+		},
+		"yrz_ingot_flame": {
+			"textures": "textures/items/ingot_flame"
+		},
+		"yrz_saimori_ore": {
+			"textures": "textures/items/saimori_ore"
+		},
+		"yrz_blood": {
+			"textures": "textures/items/animal_blood"
+		},
+		"yrz_saimori_pet_egg": {
+			"textures": "textures/items/saimori_pet_egg"
+		},
+		"yrz_selected_rottenf": {
+			"textures": "textures/items/yrz_rotten_flesh"
+		},
+		"yrz_saimori_picaxe": {
+			"textures": "textures/items/saimori_picaxe"
+		},
+		"yrz_yuuruii_picaxe": {
+			"textures": "textures/items/fenix_picaxe"
+		},
+		"yrz_fenix_axe": {
+			"textures": "textures/items/fenix_axe"
+		},
+		"yrz_saimori_axe": {
+			"textures": "textures/items/saimori_axe"
+		}
+	}
+}

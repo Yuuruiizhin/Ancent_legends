@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "yrz:fenix_sword"
+        },
+        "tags": [
+            "workspace_yrz"
+        ],
+        "pattern": [
+            "f",
+            "F",
+            "b"
+        ],
+        "key": {
+            "f": {
+                "item": "yrz:fenix_ingot"
+            },
+            "F": {
+                "item": "yrz:fenix_ingot"
+            },
+            "b": {
+                "item": "minecraft:bamboo"
+            }
+        },
+        "result": {
+            "count": 1,
+            "item": "yrz:fenix_sword"
+        }
+    }
+}

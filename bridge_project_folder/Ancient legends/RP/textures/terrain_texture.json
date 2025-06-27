@@ -1,0 +1,26 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "addontest",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"yrz_station_top": {
+			"textures": "textures/blocks/stations/crafting_top"
+		},
+		"yrz_station_bottom": {
+			"textures": "textures/blocks/stations/crafting_bottom"
+		},
+		"yrz_station_side": {
+			"textures": "textures/blocks/stations/crafting_side"
+		},
+		"yrz_station_front": {
+			"textures": "textures/blocks/stations/crafting_front"
+		},
+		"better_smelters_oak_wood_furnace_off": {
+			"textures": "textures/blocks/furnace/furnace_off"
+		},
+		"better_smelters_oak_wood_furnace_on": {
+			"textures": "textures/blocks/furnace/furnace_on"
+		}
+	}
+}

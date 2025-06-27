@@ -1,0 +1,83 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Yuuruii"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.47"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Ancient legends",
+		"description": "Ancient Legends",
+		"min_engine_version": [
+			1,
+			21,
+			90
+		],
+		"uuid": "7a35099f-b66e-49fb-acd8-8d885cd44672",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "b13f39f0-f9fd-4e1f-8b02-a09b99d2c6fa",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "3b57c46e-2dd7-4dbe-914d-456fd33cf6fc",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "f0b78c17-d6f4-4c9c-a15c-f1dd60bd0cad",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-admin",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-net",
+			"version": "1.0.0-beta"
+		}
+	]
+}

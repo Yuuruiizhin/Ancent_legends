@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "yrz:rotten_flesh"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "yrz:selected_rottenf",
+		"output": "minecraft:leather"
+	}
+}

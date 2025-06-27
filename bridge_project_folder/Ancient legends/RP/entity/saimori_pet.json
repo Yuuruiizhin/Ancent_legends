@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "yrz:saimori_pet",
+			"materials": {
+				"default": "fox"
+			},
+			"textures": {
+				"red": "textures/entity/saimori_pet/saimori_pet",
+				"arctic": "textures/entity/saimori_pet/arctic_saimori_pet"
+			},
+			"geometry": {
+				"default": "geometry.saimori_pet"
+			},
+			"animations": {
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.saimori_pet.baby_transform",
+				"crouch": "animation.saimori_pet.crouch",
+				"sleep": "animation.saimori_pet.sleep",
+				"setup": "animation.saimori_pet.setup",
+				"sit": "animation.saimori_pet.sit",
+				"wiggle": "animation.saimori_pet.wiggle",
+				"stuck": "animation.saimori_pet.stuck",
+				"pounce": "animation.saimori_pet.pounce",
+				"move": "controller.animation.saimori_pet.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.saimori_pet"
+			],
+			"spawn_egg": {
+				"texture": "yrz_saimori_pet_egg",
+				"texture_index": 0
+			}
+		}
+	}
+}

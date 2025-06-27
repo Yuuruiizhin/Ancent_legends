@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "yrz:fenix_axe"
+		},
+		"tags": [
+			"workspace_yrz"
+		],
+		"pattern": [
+			" ss",
+			" bs",
+			" b "
+		],
+		"key": {
+			"s": {
+				"item": "yrz:fenix_ingot"
+			},
+			"b": {
+				"item": "minecraft:bamboo"
+			}
+		},
+		"result": {
+			"item": "yrz:fenix_axe"
+		}
+	}
+}

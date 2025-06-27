@@ -1,0 +1,65 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "yrz:fenix_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:display_name": {
+				"value": "§6Yuuruii - §4Fenix ancestral"
+			},
+			"minecraft:durability": {
+				"max_durability": 4096
+			},
+			"minecraft:icon": "yrz_fenix_sword",
+			"minecraft:render_offsets": "tools",
+			"minecraft:damage": 17,
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "sword"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"yrz:fenix_ingot"
+						],
+						"repair_amount": "query.max_durability * 0.25"
+					},
+					{
+						"items": [
+							"yrz:fenix_sword"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.12 * context.other->query.max_durability"
+					}
+				]
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 60
+					}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_sword",
+					"minecraft:is_tool"
+				]
+			}
+		}
+	}
+}

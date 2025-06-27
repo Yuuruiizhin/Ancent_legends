@@ -1,0 +1,1 @@
+{ "format_version": 2, "entry": "scripts/main.js", "modules": [{ "type": "script", "language": "javascript", "uuid": "e1fffc8b-fd71-4c88-abb2-225f8e26304e", "version": [1, 0, 0] }] }

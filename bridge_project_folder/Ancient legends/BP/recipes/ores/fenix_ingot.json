@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "yrz:fenix_ingot"
+        },
+        "tags": [
+            "workspace_yrz"
+        ],
+        "pattern": [
+            "fdf",
+            "dfd",
+            "fdf"
+        ],
+        "key": {
+            "f": {
+                "data": 0,
+                "item": "yrz:ingot_flame"
+            },
+            "d": {
+                "data": 0,
+                "item": "minecraft:diamond"
+            }
+        },
+        "result": {
+            "count": 1,
+            "item": "yrz:fenix_ingot"
+        }
+    }
+}

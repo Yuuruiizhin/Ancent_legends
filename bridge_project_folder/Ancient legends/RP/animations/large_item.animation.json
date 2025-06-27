@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.large_item.hold": {
+            "loop": true,
+            "bones": {
+                "rightitem": {
+                    //These animations position it in the correct location
+                    "position": [
+                        "c.is_first_person ? -6 : 1",
+                        "c.is_first_person ? -1.25 : -1", // ajustado para elevar un poco más
+                        "c.is_first_person ? -2.5 : -6"
+                    ],
+                    "rotation": [
+                        "c.is_first_person ? 85 : 25", // eje X — más alto = se inclina hacia ti
+                        "c.is_first_person ? 155 : 0", // eje Y — mantén este valor si la vista es buena
+                        "c.is_first_person ? 75 : -160" // eje Z — inclina hacia la izquierda un poco más
+                    ],
+                    "scale": [
+                        "c.is_first_person ? 1 : 0.5",
+                        "c.is_first_person ? 1 : 0.5",
+                        "c.is_first_person ? 1 : 0.5"
+                    ]
+                }
+            }
+        }
+    }
+}

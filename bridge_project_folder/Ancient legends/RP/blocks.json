@@ -1,0 +1,17 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"yrz:legends_table": {
+		"textures": {
+			"up": "yrz_station_top",
+			"down": "yrz_station_bottom",
+			"north": "yrz_station_front",
+			"south": "yrz_station_front",
+			"west": "yrz_station_side",
+			"east": "yrz_station_side"
+		}
+	}
+}

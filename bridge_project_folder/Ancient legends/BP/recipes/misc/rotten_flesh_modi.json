@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "yrz:rotten_flesh_purification"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:rotten_flesh",
+				"count": 4
+			}
+		],
+		"result": {
+			"item": "yrz:selected_rottenf",
+			"count": 1
+		}
+	}
+}
